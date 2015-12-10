@@ -1,0 +1,249 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.container {
+
+}
+
+.brown{
+   color:#4b2707;
+}
+.orange{
+   color:#d17f38;
+}
+/* Typography */
+
+h1, h2 {
+font-family: Love Ya Like A Sister;
+}
+
+h1 {
+}
+
+h1 em {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p.lead {
+
+}
+
+
+p {
+
+}
+
+a{
+   text-decoration: none;
+}
+
+a:link, a:visited {
+   color:#d17f38;
+
+}
+
+a:hover {
+  color:#4b2707;
+}
+
+hr {
+
+}
+
+
+/* Header */
+
+header nav {
+
+}
+
+header nav ul { 
+   list-style-type: none;
+
+}
+
+header nav ul li {
+   display: inline-block;
+
+}
+
+header nav ul li a {
+
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul li#logo a {
+
+}
+
+header nav ul li#logo a:hover {
+
+}
+
+
+/* Hero */
+
+#hero {
+
+
+}
+.container {
+   margin :auto;
+   text-align:center;
+
+}
+
+h1,h2 {
+   text-align:center;
+}
+
+
+#hero{
+
+   border:1px,solid,black; 
+}
+#hero .container {
+   /*width:1020px;*/
+   margin:auto;
+   /*background-color:orange;*/
+   background-image:url(images/bg-tile-yellow.gif);
+   background-repeat: repeat;
+   background-color:#e8c04f;
+
+}
+
+#hero .large-ribbon {
+   position:absolute;
+   top:100px;
+   right:400px;
+
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+   display:inline-block;
+   width:59%;
+
+}
+
+#best-donut {
+   display:inline-block;
+   width:40%;
+}
+#img-donut{
+   display:inline-block;
+   width:40%;
+}
+#text-donut{
+   display:inline-block;
+   float:right;
+   width:60%;
+}
+
+main{
+  width:1020px;
+  margin :auto;
+
+}
+
+/* News & Events */
+
+#articles {
+
+}
+
+#feature-image {
+
+}
+
+#news-events article {
+
+}
+
+#news-events article.news {
+
+}
+
+#news-events article.event {
+
+}
+
+#news-events header time {
+
+}
+
+#news-events section.excerpt {
+
+}
+
+#news-events footer {
+
+}
+
+
+
+/* Footer 
+
+footer.main {
+
+}
+
+footer.main a:hover {
+
+}
+*/
+#uncopyright, #credits {
+
+}
+
+#uncopyright {
+
+}
+
+#credits {
+
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
